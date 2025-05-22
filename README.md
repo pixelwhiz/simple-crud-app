@@ -27,7 +27,7 @@
 - MySQL
 
 # Models <a name="models"></a>
-File `api/models/SiswaModel.go`
+Model `api/models/SiswaModel.go`
 ```go
 type Siswa struct {
 	NIS         string    `gorm:"primaryKey" json:"nis"`
